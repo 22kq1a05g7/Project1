@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <title> Contact Us </title>
+        <style>
+            body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  /* The image used */
+  background-image: url(sea.jpg);
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+            h1{
+                color:orangered;
+            }
+            h3{
+                color:purple;
+                text-align: end;
+                font-size: xx-large;
+            }
+            body{
+                background-color: aqua;
+                color:black;
+                text-align: center;
+                font-style: italic;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="bg">
+        <h1>Contact Us</h1>
+        <form action="Thanku.html">
+            Full Name:<input type="text" name="Full Name" placeholder="Full Name"><br>
+            enter mobile no:<input type="tel"  name="personal" id="per1" pattern="[0-9]{10}" title=""the ten digits number placeholder="Mobile Number"><br>
+            Email:<input type="text" name="Email" placeholder="email"><br>
+            Message:<input type="textarea" placeholder="Message"><br>
+            <h2 style="color:yellow">Address::</h2>
+            <p>NEAR RAMA TEMPLE,VINUKONDA-5223467</p>
+            <textarea name="mytext" placeholder="Text...."></textarea>
+        </form>
+        <input type="Submit" value="Submit">
+        <h3>Thank You.....</h3>
+        </div>
+    </body>
+</html>

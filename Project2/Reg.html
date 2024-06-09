@@ -1,0 +1,67 @@
+<html>
+  <head>
+     <title> Register Page </title>
+     <style>
+      body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  /* The image used */
+  background-image: url(color.jpg);
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+      body{
+         color: blue;
+         text-align: center;
+         font-size:x-small;
+         font-style: italic;
+      }
+     </style>
+
+  </head>
+ <body>
+   <div class="bg">
+ <h1 style="color:yellow">Register Form<h1>
+    <form action="Loginpage1.html">
+      First Name:<input type:"text" name:"First Name" value:"uname" placeholder="enter your first name"><br>
+      Last Name:<input type:"text" name:"Last Name" value:"lname" placeholder="enter your last name"><br>
+     Email: <input list="email" name="mymails" placeholder="email">
+
+        <datalist id="email">
+<option value="mahesh@gamil.com"></option>
+             <option value="mahesh123@yahoo.com"></option>
+             <option value="maheshhanuma@hotmail.com"></option>
+             <option value="mahesh24@gmail.com"></option>
+                 
+        </datalist><br>
+
+	    Gender::<input type="radio" name="gender" value="male">Male<br>
+            <input type="radio" name="gender" value=female">Female<br>
+            <input type="radio" name="gender" value="other">Other<br>
+   B.Tech Degree::<select name:" B.Tech Degree">
+              <option>CSE</option>
+              <option>IT</option>
+              <option>AIDS</option>
+              <option>AIML</option>
+              <option>IOT</option>
+              <option>MECH</option>
+               <option>ECE</option>
+               <option>EEE</option>
+    </select><br><br>
+    Date::<input type="date"><br>
+     <input type="submit" value="submit">
+     <input type="Reset" value="Reset">
+     <button>Next</button>
+</form>
+</div>
+</body>
+</html>
